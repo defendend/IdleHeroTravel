@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="component_background" format="color" />
+  <attr name="component_slider" format="color" />
+  <attr name="component_divider" format="color" />
+  <attr name="component_ripple" format="color" />
+</resources>

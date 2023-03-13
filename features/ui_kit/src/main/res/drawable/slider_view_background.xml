@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+  <corners
+    android:bottomLeftRadius="@dimen/component_radius"
+    android:bottomRightRadius="@dimen/component_radius"
+    android:topLeftRadius="@dimen/component_radius"
+    android:topRightRadius="@dimen/component_radius" />
+
+  <solid android:color="?attr/component_slider" />
+</shape>
