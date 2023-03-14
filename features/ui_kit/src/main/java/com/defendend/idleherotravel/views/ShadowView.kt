@@ -5,7 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
-import com.defendend.idleherotravel.di.koin.R
+import com.defendend.idleherotravel.ui.kit.R
 
 class ShadowView @JvmOverloads constructor(
     context: Context,
