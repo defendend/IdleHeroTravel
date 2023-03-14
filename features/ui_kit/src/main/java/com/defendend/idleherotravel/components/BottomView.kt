@@ -11,7 +11,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.children
 import androidx.core.view.updateLayoutParams
 import androidx.viewbinding.ViewBinding
-import com.defendend.idleherotravel.ui_kit.R
+import com.defendend.idleherotravel.di.koin.R
 import com.defendend.idleherotravel.utils.drawable
 import com.defendend.idleherotravel.utils.hideKeyboard
 import com.defendend.idleherotravel.views.ShadowView

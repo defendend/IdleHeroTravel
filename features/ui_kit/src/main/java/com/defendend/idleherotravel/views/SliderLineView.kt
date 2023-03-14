@@ -3,7 +3,7 @@ package com.defendend.idleherotravel.views
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
-import com.defendend.idleherotravel.ui_kit.R
+import com.defendend.idleherotravel.di.koin.R
 import com.defendend.idleherotravel.utils.dimen
 import com.defendend.idleherotravel.utils.drawable
 

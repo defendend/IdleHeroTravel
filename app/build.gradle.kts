@@ -38,13 +38,15 @@ android {
 
 dependencies {
 
-    implementation(Libs.core_ktx)
+    implementation(Libs.coreKtx)
     implementation(Libs.appcompat)
     implementation(Libs.material)
     implementation(Libs.constraintlayout)
+    implementation(Libs.koin)
     testImplementation(Libs.junit)
-    androidTestImplementation(Libs.ext_junit)
-    androidTestImplementation(Libs.espresso_core)
+    androidTestImplementation(Libs.extJunit)
+    androidTestImplementation(Libs.espressoCore)
 
+    implementation(project(Module.diKoin))
     implementation(project(Module.uiKit))
 }

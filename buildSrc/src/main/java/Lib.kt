@@ -1,6 +1,7 @@
 object Module {
 
     const val uiKit = ":features:ui_kit"
+    const val diKoin = ":features:di_koin"
 }
 
 object PluginId {
@@ -14,12 +15,12 @@ object PluginId {
 
 object Libs {
 
-    const val core_ktx = "androidx.core:core-ktx:${Versions.core_ktx}"
-    const val appcompat = "androidx.appcompat:appcompat:1.6.1"
+    const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
+    const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
     const val material = "com.google.android.material:material:${Versions.material}"
-    const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
-
-    const val junit = "junit:junit:4.13.2"
-    const val ext_junit = "androidx.test.ext:junit:1.1.5"
-    const val espresso_core = "androidx.test.espresso:espresso-core:3.5.1"
+    const val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+    const val koin = "io.insert-koin:koin-android:${Versions.koin}"
+    const val junit = "junit:junit:${Versions.junit}"
+    const val extJunit = "androidx.test.ext:junit:${Versions.extJunit}"
+    const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espressoCore}"
 }

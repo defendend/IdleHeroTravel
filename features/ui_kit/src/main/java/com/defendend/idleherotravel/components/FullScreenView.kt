@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.viewbinding.ViewBinding
-import com.defendend.idleherotravel.ui_kit.R
+import com.defendend.idleherotravel.di.koin.R
 import com.defendend.idleherotravel.utils.attrColor
 
 @SuppressLint("ClickableViewAccessibility")
