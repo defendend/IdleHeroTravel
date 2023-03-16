@@ -47,6 +47,8 @@ dependencies {
     androidTestImplementation(Libs.extJunit)
     androidTestImplementation(Libs.espressoCore)
 
+    implementation(project(Module.abstraction))
     implementation(project(Module.diKoin))
+    implementation(project(Module.navigation))
     implementation(project(Module.uiKit))
 }

@@ -14,5 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Idle Hero Travel"
 include(":app")
-include(":features:ui_kit")
+include(":features:abstraction")
 include(":features:di_koin")
+include(":features:navigation")
+include(":features:ui_kit")

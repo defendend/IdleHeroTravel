@@ -1,7 +1,9 @@
 object Module {
 
-    const val uiKit = ":features:ui_kit"
+    const val abstraction = ":features:abstraction"
     const val diKoin = ":features:di_koin"
+    const val navigation = ":features:navigation"
+    const val uiKit = ":features:ui_kit"
 }
 
 object PluginId {
